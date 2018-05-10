@@ -10,12 +10,12 @@ import "./home.css";
 
 const Home = () => (
   <div className="w-full h-auto flex flex-wrap">
-    <NavBar />
     <Hero title="Seeing for Ourselves" text="lorem ipsum" />
-    <FeaturedProduct topHeadline="" title="" text="" />
+    <NavBar />
+    {/*     <FeaturedProduct topHeadline="" title="" text="" />
     <Newsletter />
     <RecentPosts />
-    <Footer />
+    <Footer /> */}
   </div>
 );
 

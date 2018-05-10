@@ -1,10 +1,31 @@
-@tailwind preflight;
-@tailwind utilities;
+.hero-image {
+  /* The image used */
+  background-image: url("../../../imgs/people.jpg");
 
-/* test css */
-.bar {
-  background: blue;
-  & .bar {
-    background-color: red;
-  }
+  /* Set a specific height */
+  height: auto;
+  min-height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 12px;
+  text-align: justify;
 }
