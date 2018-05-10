@@ -8,7 +8,7 @@
 
 * `$ yarn build`
 
-a new `dist` folder is created with frontend assets ready to be share in a webserver.
+a new `dist` folder is created with frontend assets ready to be shared in a webserver.
 
 ## development
 

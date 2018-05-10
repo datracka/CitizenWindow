@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: Roboto, serif;
+}
+
 .foo {
   border: 10px solid red;
 }
