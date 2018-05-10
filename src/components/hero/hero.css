@@ -1,0 +1,10 @@
+@tailwind preflight;
+@tailwind utilities;
+
+/* test css */
+.bar {
+  background: blue;
+  & .bar {
+    background-color: red;
+  }
+}
