@@ -125,7 +125,15 @@ let colors = {
   pink: "#f66d9b",
   "pink-light": "#fa7ea8",
   "pink-lighter": "#ffbbca",
-  "pink-lightest": "#ffebef"
+  "pink-lightest": "#ffebef",
+
+  "primary-red": "#ed1c24",
+  "secondary-red": "#f14950",
+  "primary-blue": "#1b75bc",
+  "secondary-blue": "#4991c1",
+  "primary-black": "#000",
+  "secondary-black": "#33333",
+  "primary-grey": "#a7a9ac"
 };
 
 module.exports = {
@@ -253,7 +261,12 @@ module.exports = {
     "2xl": "1.5rem", // 24px
     "3xl": "1.875rem", // 30px
     "4xl": "2.25rem", // 36px
-    "5xl": "3rem" // 48px
+    "5xl": "3rem", // 48px
+    "14px": "16px",
+    "16px": "16px",
+    "18px": "18px",
+    "20px": "20px",
+    "22px": "22px"
   },
 
   /*
@@ -468,6 +481,7 @@ module.exports = {
     "32": "8rem",
     "48": "12rem",
     "64": "16rem",
+    "128": "128rem",
     "1/2": "50%",
     "1/3": "33.33333%",
     "2/3": "66.66667%",
@@ -480,7 +494,11 @@ module.exports = {
     "1/6": "16.66667%",
     "5/6": "83.33333%",
     full: "100%",
-    screen: "100vw"
+    screen: "100vw",
+    heading1: "60px",
+    heading2: "40px",
+    heading3: "32px",
+    heading4: "26px"
   },
 
   /*
@@ -514,8 +532,7 @@ module.exports = {
     "32": "8rem",
     "48": "12rem",
     "64": "16rem",
-    full: "100%",
-    screen: "100vh"
+    full: "100%"
   },
 
   /*
@@ -821,7 +838,7 @@ module.exports = {
     display: ["responsive"],
     flexbox: ["responsive"],
     float: ["responsive"],
-    fonts: ["responsive"],
+    fonts: false,
     fontWeights: ["responsive", "hover"],
     height: ["responsive"],
     leading: ["responsive"],

@@ -8,6 +8,88 @@ body {
   font-family: Roboto, serif;
 }
 
+/* shared utility classes */
+
+.heading1 {
+  @apply .w-64 .bg-primary-black .font-medium;
+}
+
+.heading2 {
+  @apply .w-64 .bg-primary-black .font-medium;
+}
+
+.heading3 {
+  @apply .w-64 .bg-secondary-black .font-normal;
+}
+
+.heading4 {
+  @apply .w-64 .bg-secondary-black .font-normal;
+}
+
+.btn-small-red {
+  @apply .bg-secondary-red .text-white .text-18px .font-bold;
+}
+
+.btn-small-red:hover {
+  @apply .bg-primary-red;
+}
+
+.btn-medium-red {
+  @apply .bg-secondary-red .text-white .text-20px .font-bold;
+}
+
+.btn-medium-red:hover {
+  @apply .bg-primary-red;
+}
+
+.btn-big-red {
+  @apply .bg-secondary-red .text-white .text-22px .font-bold;
+}
+
+.btn-big-red:hover {
+  @apply .bg-primary-red;
+}
+
+.btn-small-blue {
+  @apply .bg-secondary-blue .text-white .text-18px .font-bold;
+}
+
+.btn-small-blue:hover {
+  @apply .bg-primary-blue;
+}
+
+.btn-medium-blue {
+  @apply .bg-secondary-red .text-white .text-20px .font-bold;
+}
+
+.btn-medium-blue:hover {
+  @apply .bg-primary-blue;
+}
+
+.btn-big-blue {
+  @apply .bg-secondary-red .text-white .text-22px .font-bold;
+}
+
+.link {
+  @apply .text-14px .bg-secondary-blue .font-normal;
+}
+
+.link:hover {
+  @apply .underline;
+}
+
+.link-big {
+  @apply .text-16px .bg-secondary-blue .font-normal;
+}
+
+.link-big:hover {
+  @apply .underline;
+}
+
+.btn-big-blue:hover {
+  @apply .bg-primary-blue;
+}
+
 .foo {
   border: 10px solid red;
 }
