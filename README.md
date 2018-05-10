@@ -13,7 +13,7 @@ a new `dist` folder is created with frontend assets ready to be shared in a webs
 ## development
 
 * `$ yarn start`
-* open `http://localhost:1234` for starting developing
+* open `http://localhost:1234` and have fun!
 
 ## built using
 
