@@ -1,3 +1,5 @@
+@tailwind utilities;
+
 .hero-image {
   /* The image used */
   background-image: url("../../../imgs/people.jpg");
@@ -16,16 +18,37 @@
   flex-direction: column;
 }
 
-.hero-title {
-  font-size: 52px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 20px;
-}
+@responsive {
+  .hero-title {
+    @apply .text-5xl .text-white .leading-none;
+  }
 
-.hero-text {
-  font-size: 12px;
-  text-align: justify;
+  .hero-text {
+    @apply .text-lg .text-white .leading-tight .text-orange;
+  }
+
+  @screen md {
+    .hero-title {
+      @apply .text-10xl;
+    }
+    .hero-text {
+      @apply .text-2xl .text-blue;
+    }
+  }
+
+  @screen lg {
+    .hero-text {
+      @apply .text-4xl .text-red;
+    }
+  }
+
+  @screen xl {
+    .hero-text {
+      @apply .text-5xl .text-green .leading-tight;
+    }
+  }
+
+  @screen xxl {
+    @apply .text-10xl .text-green .leading-tight;
+  }
 }
