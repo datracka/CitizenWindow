@@ -131,6 +131,7 @@ let colors = {
   "secondary-red": "#f14950",
   "primary-blue": "#1b75bc",
   "secondary-blue": "#4991c1",
+  "tertiary-blue": "#89b2d9",
   "primary-black": "#000",
   "secondary-black": "#33333",
   "primary-grey": "#a7a9ac"
@@ -490,7 +491,9 @@ module.exports = {
     "1/2": "50%",
     "1/3": "33.33333%",
     "2/3": "66.66667%",
+    "1/10": "10%",
     "1/4": "25%",
+    "3/10": "30%",
     "3/4": "75%",
     "1/5": "20%",
     "2/5": "40%",
@@ -677,7 +680,9 @@ module.exports = {
     "3": "0.75rem",
     "4": "1rem",
     "6": "1.5rem",
-    "8": "2rem"
+    "8": "2rem",
+    "16": "4rem",
+    "24": "6rem"
   },
 
   /*

@@ -12,10 +12,10 @@ const Home = () => (
   <div className="w-full h-auto flex flex-wrap">
     <Hero title="Seeing for Ourselves" text="lorem ipsum" />
     <NavBar />
-    {/*     <FeaturedProduct topHeadline="" title="" text="" />
+    <FeaturedProduct topHeadline="" title="" text="" />
     <Newsletter />
     <RecentPosts />
-    <Footer /> */}
+    <Footer />
   </div>
 );
 

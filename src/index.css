@@ -1,11 +1,9 @@
 @import "./fonts.css";
 
 @tailwind preflight;
-@tailwind components;
-@tailwind utilities;
 
 body {
-  font-family: Roboto, serif;
+  font-family: "Roboto regular", serif;
 }
 
 /* shared utility classes */
@@ -14,24 +12,27 @@ body {
   @apply .pl-6 .pr-6 .max-w-xl;
 }
 
+/* heading */
+
 .heading1 {
-  @apply .w-64 .bg-primary-black .font-medium;
+  @apply .text-5xl .text-primary-black .font-medium;
 }
 
 .heading2 {
-  @apply .w-64 .bg-primary-black .font-medium;
+  @apply .text-4xl .text-primary-black .font-medium;
 }
 
 .heading3 {
-  @apply .w-64 .bg-secondary-black .font-normal;
+  @apply .text-3xl .text-secondary-black .font-normal;
 }
 
 .heading4 {
-  @apply .w-64 .bg-secondary-black .font-normal;
+  @apply .text-xl .text-secondary-black .font-normal;
 }
 
+/* btn */
 .btn-small-red {
-  @apply .bg-secondary-red .text-white .text-18px .font-bold;
+  @apply .bg-secondary-red .text-white .text-xs .font-bold;
 }
 
 .btn-small-red:hover {
@@ -39,7 +40,7 @@ body {
 }
 
 .btn-medium-red {
-  @apply .bg-secondary-red .text-white .text-20px .font-bold;
+  @apply .bg-secondary-red .text-white .text-base .font-bold;
 }
 
 .btn-medium-red:hover {
@@ -47,7 +48,7 @@ body {
 }
 
 .btn-big-red {
-  @apply .bg-secondary-red .text-white .text-22px .font-bold;
+  @apply .bg-secondary-red .text-white .text-lg .font-bold;
 }
 
 .btn-big-red:hover {
@@ -55,7 +56,7 @@ body {
 }
 
 .btn-small-blue {
-  @apply .bg-secondary-blue .text-white .text-18px .font-bold;
+  @apply .bg-secondary-blue .text-white .text-xs .font-bold;
 }
 
 .btn-small-blue:hover {
@@ -63,7 +64,7 @@ body {
 }
 
 .btn-medium-blue {
-  @apply .bg-secondary-red .text-white .text-20px .font-bold;
+  @apply .bg-secondary-blue .text-white .text-base .font-bold pl-8 pr-8 pt-2 pb-2;
 }
 
 .btn-medium-blue:hover {
@@ -71,11 +72,13 @@ body {
 }
 
 .btn-big-blue {
-  @apply .bg-secondary-red .text-white .text-22px .font-bold;
+  @apply .bg-secondary-red .text-white .text-lg .font-bold;
 }
 
+/* link */
+
 .link {
-  @apply .text-14px .bg-secondary-blue .font-normal;
+  @apply .text-14px .text-secondary-blue .font-normal;
 }
 
 .link:hover {
@@ -97,3 +100,26 @@ body {
 .foo {
   border: 10px solid red;
 }
+
+/* text */
+
+.upper-title-text {
+}
+
+.main-text {
+  font-family: "Roboto thin", serif;
+  @apply .text-white .leading-tight;
+}
+
+.date-text {
+}
+
+.form-text {
+  font-family: "Roboto thin", serif;
+  @apply .text-tertiary-blue;
+}
+
+.compressed-text {
+}
+
+@tailwind utilities;

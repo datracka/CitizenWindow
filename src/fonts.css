@@ -32,7 +32,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto thin";
   src: url("../fonts/Roboto_100.woff2") format("woff2"),
     url("../fonts/Roboto_100.woff") format("woff");
   font-weight: 100;
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto light";
   src: url("../fonts/Roboto_300.woff2") format("woff2"),
     url("../fonts/Roboto_300.woff") format("woff");
   font-weight: 100;
@@ -48,7 +48,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto regular";
   src: url("../fonts/Roboto_400.woff2") format("woff2"),
     url("../fonts/Roboto_400.woff") format("woff");
   font-weight: 400;
@@ -56,7 +56,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto medium";
   src: url("../fonts/Roboto_500.woff2") format("woff2"),
     url("../fonts/Roboto_500.woff") format("woff");
   font-weight: 500;
@@ -64,7 +64,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto bold";
   src: url("../fonts/Roboto_700.woff2") format("woff2"),
     url("../fonts/Roboto_700.woff") format("woff");
   font-weight: 700;
@@ -72,7 +72,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto black";
   src: url("../fonts/Roboto_900.woff2") format("woff2"),
     url("../fonts/Roboto_900.woff") format("woff");
   font-weight: 900;
