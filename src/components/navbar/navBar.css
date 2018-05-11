@@ -1,1 +1,6 @@
 /* css */
+@tailwind utilities;
+
+.nav-item {
+  @apply .no-underline text-white;
+}

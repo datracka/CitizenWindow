@@ -11,7 +11,7 @@ body {
 /* shared utility classes */
 
 .container {
-  @apply pl-6 pr-6;
+  @apply .pl-6 .pr-6 .max-w-xl;
 }
 
 .heading1 {

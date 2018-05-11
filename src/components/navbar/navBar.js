@@ -9,25 +9,35 @@ const Navbar = props => {
       <div className="text-white"> Citizen Window </div>
       <div className="icon-menu block absolute self-end text-white text-xl md:hidden" />
       <nav className="hidden md:flex">
-        <Link to="/">
-          <span className="text-white mr-2">Home</span>
+        <Link className="no-underline text-white hover:underline mr-2" to="/">
+          Home
         </Link>
-        <Link to="/about">
-          <span className="text-white mr-2">About</span>
+        <Link
+          className="no-underline text-white hover:underline mr-2"
+          to="/about"
+        >
+          About
         </Link>
-        <Link to="/products">
-          <span className="text-white mr-2">Products</span>
+        <Link
+          className="no-underline text-white hover:underline mr-2"
+          to="/products"
+        >
+          Products
         </Link>
-        <Link to="/learn">
-          <span className="text-white mr-2" to="/learn">
-            Learn
-          </span>
+        <Link
+          className="no-underline text-white hover:underline  mr-2"
+          to="/learn"
+        >
+          Learn
         </Link>
-        <Link to="/data">
-          <span className="text-white mr-2">Data</span>
+        <Link
+          className="no-underline text-white hover:underline mr-2"
+          to="/data"
+        >
+          Data
         </Link>
-        <Link to="/connect">
-          <span className="text-white">Connect</span>
+        <Link className="no-underline text-white hover:underline" to="/connect">
+          Connect
         </Link>
       </nav>
     </header>
