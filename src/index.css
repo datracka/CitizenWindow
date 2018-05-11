@@ -15,19 +15,11 @@ body {
 /* heading */
 
 .heading1 {
-  @apply .text-5xl .text-primary-black .font-medium;
+  @apply .text-4.5xl .font-normal .text-primary-black;
 }
 
 .heading2 {
-  @apply .text-4xl .text-primary-black .font-medium;
-}
-
-.heading3 {
-  @apply .text-3xl .text-secondary-black .font-normal;
-}
-
-.heading4 {
-  @apply .text-xl .text-secondary-black .font-normal;
+  @apply .text-2xl .font-normal .text-primary-black;
 }
 
 /* btn */
@@ -103,23 +95,23 @@ body {
 
 /* text */
 
-.upper-title-text {
+.thinner-text {
+  font-family: "Roboto thin", serif;
+  @apply .text-sm .leading-tight .text-white;
+}
+
+.thin-text {
+  font-family: "Roboto thin", serif;
+  @apply .text-base .leading-tight .text-white;
 }
 
 .main-text {
   font-family: "Roboto thin", serif;
-  @apply .text-white .leading-tight;
-}
-
-.date-text {
+  @apply .text-lg .leading-tight .text-white;
 }
 
 .form-text {
-  font-family: "Roboto thin", serif;
-  @apply .text-tertiary-blue;
-}
-
-.compressed-text {
+  @apply .main-text;
 }
 
 @tailwind utilities;

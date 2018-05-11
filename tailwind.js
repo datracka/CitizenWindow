@@ -133,7 +133,7 @@ let colors = {
   "secondary-blue": "#4991c1",
   "tertiary-blue": "#89b2d9",
   "primary-black": "#000",
-  "secondary-black": "#33333",
+  "secondary-black": "#333333",
   "primary-grey": "#a7a9ac"
 };
 
@@ -264,6 +264,7 @@ module.exports = {
     "2xl": "1.5rem", // 24px
     "3xl": "1.875rem", // 30px
     "4xl": "2.25rem", // 36px
+    "4.5px": "2.5rem", //40px
     "5xl": "3rem", // 48px
     "10xl": "6rem", // 96px
     "20xl": "12rem", // 96*2px
