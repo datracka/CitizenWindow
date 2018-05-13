@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "components/navbar";
-import styled from "styled-components";
 import Hero from "components/hero";
 import FeaturedProduct from "components/featured-product";
 import Newsletter from "components/newsletter";
