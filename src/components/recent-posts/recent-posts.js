@@ -1,5 +1,5 @@
 import React from "react";
-import Post from "components/post";
+import MediaItem from "components/media-item";
 import "./recent-posts.css";
 
 const RecentPosts = () => (
@@ -9,13 +9,13 @@ const RecentPosts = () => (
       <h1 className="text-center heading2">Recent Posts</h1>
       <div className="flex flex-wrap direction-row justify-between w-full mt-6">
         <div className="w-full md:w-3/10 flex align-center justify-center mb-8 md:mb-0">
-          <Post />
+          <MediaItem type="post" />
         </div>
         <div className="w-full md:w-3/10 flex align-center justify-center mb-8 md:mb-0">
-          <Post />
+          <MediaItem type="post" />
         </div>
         <div className="w-full md:w-3/10 flex align-center justify-center mb-8 md:mb-0">
-          <Post />
+          <MediaItem tyoe="post" />
         </div>
       </div>
     </div>

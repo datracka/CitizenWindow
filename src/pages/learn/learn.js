@@ -1,10 +1,13 @@
 import React from "react";
-/* import NavBar from "components/NavBar"; */
+import NavBar from "components/navBar";
+/* import Articles from "components/articles"; */
 
 const Learn = () => (
   <div>
-    {/* <NavBar /> */}
-    <div>learn!</div>
+    <NavBar />
+    {/*     <Articles />
+    <Videos />
+    <Podcasts /> */}
   </div>
 );
 
