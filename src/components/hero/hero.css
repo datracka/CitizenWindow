@@ -24,31 +24,31 @@
   }
 
   .hero-text {
-    @apply .text-lg .text-white .leading-tight .text-orange;
+    @apply .text-lg .text-white .leading-tight; /* .text-orange */
   }
 
   @screen md {
     .hero-title {
-      @apply .text-10xl;
+      @apply .text-5xl;
     }
     .hero-text {
-      @apply .text-2xl .text-blue;
+      @apply .text-2xl; /* .text-blue */
     }
   }
 
   @screen lg {
     .hero-text {
-      @apply .text-4xl .text-red;
+      @apply .text-2xl; /* .text-red */
     }
   }
 
   @screen xl {
     .hero-text {
-      @apply .text-5xl .text-green .leading-tight;
+      @apply .text-5xl .leading-tight; /*  .text-green */
     }
   }
 
   @screen xxl {
-    @apply .text-10xl .text-green .leading-tight;
+    @apply .text-10xl .leading-tight; /*  .text-orange */
   }
 }
