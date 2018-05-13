@@ -8,13 +8,13 @@ const RecentPosts = () => (
       <p className="text-center">BLOG</p>
       <h1 className="text-center heading2">Recent Posts</h1>
       <div className="flex flex-wrap direction-row justify-between w-full mt-6">
-        <div className="w-full md:w-3/10 flex align-center justify-center">
+        <div className="w-full md:w-3/10 flex align-center justify-center mb-8 md:mb-0">
           <Post />
         </div>
-        <div className="w-full md:w-3/10 flex align-center justify-center">
+        <div className="w-full md:w-3/10 flex align-center justify-center mb-8 md:mb-0">
           <Post />
         </div>
-        <div className="w-full md:w-3/10 flex align-center justify-center">
+        <div className="w-full md:w-3/10 flex align-center justify-center mb-8 md:mb-0">
           <Post />
         </div>
       </div>
