@@ -1,4 +1,6 @@
 import React from "react";
+import Input from "components/input";
+
 import "./newsletter.css";
 
 const Newsletter = () => (
@@ -11,41 +13,29 @@ const Newsletter = () => (
       </p>
       <form
         action="#"
-        className="w-full flex justify-center aligin-center justify-around  flex-wrap"
+        className="w-full flex justify-center aligin-center justify-around flex-wrap"
       >
-        <div class="flex items-center border-b border-b-2 border-white py-2 w-full md:w-1/5 mt-4">
-          <input
-            class=" appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 form-text"
-            type="text"
-            placeholder="First Name"
-            aria-label="First Name"
-          />
+        <div className="flex items-center w-full md:w-1/5 mt-4">
+          <div className="border-b border-b-2 border-white w-full mr-2 pb-1">
+            <Input placeHolder="First Name" ariaLabel="First Name" />
+          </div>
         </div>
-        <div class="flex items-center border-b border-b-2 border-white py-2 w-full md:w-1/5 mt-4">
-          <input
-            class="appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 form-text"
-            type="text"
-            placeholder="Last Name"
-            aria-label="Last Name"
-          />
+        <div className="flex items-center w-full md:w-1/5 mt-4">
+          <div className="border-b border-b-2 border-white w-full mr-2 pb-1">
+            <Input placeHolder="Last Name" ariaLabel="Last Name" />
+          </div>
         </div>
-        <div class="flex items-center border-b border-b-2 border-white py-2 w-full md:w-1/10 mt-4">
-          <input
-            class="appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 form-text"
-            type="text"
-            placeholder="Zip"
-            aria-label="Zip"
-          />
+        <div className="flex items-center  w-full md:w-1/10 mt-4">
+          <div className="border-b border-b-2 border-white mr-2 w-full pb-1">
+            <Input placeHolder="Zip" ariaLabel="Zip" />
+          </div>
         </div>
-        <div class="flex items-center border-b border-b-2 border-white py-2 w-full md:w-3/10 mt-4">
-          <input
-            class="appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 form-text"
-            type="text"
-            placeholder="Email Address"
-            aria-label="Email Address"
-          />
+        <div className="flex items-center w-full md:w-3/10 mt-4">
+          <div className="border-b border-b-2 border-white pb-1 w-full mr-2">
+            <Input placeHolder="Email Address" ariaLabel="Email Address" />
+          </div>
         </div>
-        <button class=" btn-medium-blue main-text w-full md:w-1/5 mt-4">
+        <button className=" btn-medium-blue main-text w-full md:w-1/5 mt-4">
           Button
         </button>
       </form>

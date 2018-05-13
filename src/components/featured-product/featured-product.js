@@ -16,7 +16,7 @@ const FeaturedProduct = props => (
           perferendis earum minus nisi suscipit voluptate voluptatum, tempore
           amet magni!
         </p>
-        <p class="link">Read More</p>
+        <p className="link">Read More</p>
       </div>
     </div>
   </section>
