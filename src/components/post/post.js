@@ -3,7 +3,7 @@ import "./post.css";
 
 const Post = () => (
   <div className="overflow-hidden flex flex-col max-w-md">
-    <div className="image bg-cover bg-center h-48 w-auto" />
+    <div className="post-image bg-cover bg-center h-48 w-auto" />
     <h2 className="heading3 text-secondary-black mt-6">Lorem ipsum</h2>
     <p className="main-text text-primary-grey mt-2">
       23 March 2017 by <strong>Author</strong>

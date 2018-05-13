@@ -1,5 +1,5 @@
-.image {
-  background-image: url("../../../imgs/placeholder.jpg");
+.post-image {
+  background-image: url("../../../imgs/placeholder.png");
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;

@@ -44,11 +44,13 @@
 
   @screen xl {
     .hero-text {
-      @apply .text-5xl .leading-tight; /*  .text-green */
+      @apply .text-3xl .leading-tight; /*  .text-green */
     }
   }
 
   @screen xxl {
-    @apply .text-10xl .leading-tight; /*  .text-orange */
+    .hero-text {
+      @apply .text-4xl .leading-tight; /*  .text-orange */
+    }
   }
 }
