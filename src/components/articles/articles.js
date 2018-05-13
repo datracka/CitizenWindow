@@ -1,25 +1,24 @@
 import React from "react";
 import MediaItem from "components/media-item";
-import "./recent-posts.css";
+import "./articles.css";
 
-const RecentPosts = () => (
+const Articles = () => (
   <section className="flex justify-center align-center w-full h-auto bg-white mt-16">
     <div className="container flex justify-center align-center flex-col w-full">
-      <p className="text-center">BLOG</p>
-      <h1 className="text-center heading2">Recent Posts</h1>
+      <h1 className="text-left heading2">Articles</h1>
       <div className="flex flex-wrap direction-row justify-between w-full mt-6">
         <div className="w-full md:w-3/10 flex align-center justify-center mb-8 md:mb-0">
-          <MediaItem type="post" />
+          <MediaItem type="article" />
         </div>
         <div className="w-full md:w-3/10 flex align-center justify-center mb-8 md:mb-0">
-          <MediaItem type="post" />
+          <MediaItem type="article" />
         </div>
         <div className="w-full md:w-3/10 flex align-center justify-center mb-8 md:mb-0">
-          <MediaItem type="post" />
+          <MediaItem type="article" />
         </div>
       </div>
     </div>
   </section>
 );
 
-export default RecentPosts;
+export default Articles;
