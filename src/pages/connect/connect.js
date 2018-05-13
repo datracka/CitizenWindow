@@ -1,9 +1,9 @@
 import React from "react";
-import NavBar from "components/NavBar";
+/* import NavBar from "components/NavBar"; */
 
 const Connect = () => (
   <div>
-    <NavBar />
+    {/* <NavBar /> */}
     <div>connect!</div>
   </div>
 );

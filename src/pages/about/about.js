@@ -1,9 +1,9 @@
 import React from "react";
-import NavBar from "components/NavBar";
+/* import NavBar from "components/NavBar"; */
 
 const About = () => (
   <div>
-    <NavBar />
+    {/* <NavBar /> */}
     <div>about!</div>
   </div>
 );

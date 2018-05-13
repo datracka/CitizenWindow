@@ -1,9 +1,9 @@
 import React from "react";
-import NavBar from "components/NavBar";
+/* import NavBar from "components/NavBar"; */
 
 const Data = () => (
   <div>
-    <NavBar />
+    {/* <NavBar /> */}
     <div>data!</div>
   </div>
 );
