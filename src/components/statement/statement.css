@@ -1,0 +1,22 @@
+.statement-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.statement-image-mission {
+  background-image: url("../../../imgs/mission.png");
+}
+
+.statement-image-vision {
+  background-image: url("../../../imgs/vision.png");
+}
+
+.statement-image-values {
+  background-image: url("../../../imgs/values.png");
+}
+
+.statement-image-team {
+  background-image: url("../../../imgs/team.png");
+}

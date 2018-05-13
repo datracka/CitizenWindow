@@ -543,6 +543,8 @@ module.exports = {
     "64": "16rem",
     "96": "24rem",
     "128": "32rem",
+    half: "50%",
+    third: "75%",
     full: "100%"
   },
 

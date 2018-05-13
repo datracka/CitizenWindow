@@ -1,37 +1,33 @@
 import React from "react";
 import Statement from "components/statement";
-import missionImage from "../../../imgs/mission.png";
-import visionImage from "../../../imgs/vision.png";
-import valuesImage from "../../../imgs/values.png";
-import teamImage from "../../../imgs/team.png";
 
 import "./statements.css";
 
 const Statements = () => (
-  <section className="flex flex-col justify-center items-center w-full h-auto bg-white text-white mt-8">
+  <section className="flex flex-col justify-center items-center w-full h-auto bg-white text-white mt-8 pl-8 pr-8">
     <Statement
       title="Mission"
       text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ratione eligendi aut quibusdam nesciunt repudiandae eveniet delectus alias commodi id!"
-      image={missionImage}
+      image="mission"
       link="#"
     />
     <Statement
       title="Vision"
       text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ratione eligendi aut quibusdam nesciunt repudiandae eveniet delectus alias commodi id!"
-      image={visionImage}
+      image="vision"
       link="#"
       reversed
     />
     <Statement
       title="Values"
       text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ratione eligendi aut quibusdam nesciunt repudiandae eveniet delectus alias commodi id!"
-      image={valuesImage}
+      image="values"
       link="#"
     />
     <Statement
       title="Team"
       text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis ratione eligendi aut quibusdam nesciunt repudiandae eveniet delectus alias commodi id!"
-      image={teamImage}
+      image="team"
       link="#"
       reversed
     />
