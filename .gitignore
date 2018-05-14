@@ -2,5 +2,4 @@ yarn-error.log
 .vscode
 .cache
 node_modules
-imgs
 .DS_Store

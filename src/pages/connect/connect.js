@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "components/navBar";
+import NavBar from "components/navbar";
 import Header from "components/header";
 import ContactForm from "components/contact-form";
 import Tweets from "components/tweets";
